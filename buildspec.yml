@@ -8,5 +8,5 @@ phases:
   pre_build:
     commands:
     - npm install --silent --no-progress
-  deploy:
+  build:
     - serverless deploy
