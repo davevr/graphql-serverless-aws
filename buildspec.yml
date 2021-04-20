@@ -9,4 +9,5 @@ phases:
     commands:
     - npm install --silent --no-progress
   build:
+    commands:
     - serverless deploy
