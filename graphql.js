@@ -12,7 +12,7 @@ const store = createSql();
 
 
 
-// the server again and again
+// the server modified
 const wtfAPI = new WTFAPI({ store });
 
 const server = new ApolloServer({
